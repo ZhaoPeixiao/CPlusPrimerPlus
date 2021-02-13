@@ -18,5 +18,19 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="golf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sales.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="golf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sales.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
