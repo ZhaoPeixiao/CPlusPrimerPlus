@@ -139,7 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="complex0.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mytime3.cpp" />
+    <ClCompile Include="Stonewt1.cpp" />
+    <ClCompile Include="Stonewt2.cpp" />
+    <ClCompile Include="vec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="complex0.h" />
+    <ClInclude Include="mytime3.h" />
+    <ClInclude Include="Stonewt1.h" />
+    <ClInclude Include="Stonewt2.h" />
+    <ClInclude Include="vect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,5 +18,37 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mytime3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stonewt1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stonewt2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="complex0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mytime3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stonewt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stonewt2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="complex0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
