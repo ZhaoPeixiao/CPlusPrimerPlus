@@ -9,7 +9,6 @@ Cow::Cow()
 	hobby = new char[1];
 	hobby[0] = '\0';
 	weight = 0.0;
-
 }
 
 Cow::Cow(const char* nm, const char* ho, double wt)
