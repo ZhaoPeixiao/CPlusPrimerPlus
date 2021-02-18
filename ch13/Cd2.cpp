@@ -73,27 +73,26 @@ CdPlus& CdPlus::operator=(const CdPlus& c)
 	return *this;
 }
 
-
-ClassicPlus::ClassicPlus(const char* s1, const char* s2, const char* s3, int n, double x):
+ClassicPlus::ClassicPlus(const char* s1, const char* s2, const char* s3, int n, double x) :
 	CdPlus(s1, s2, n, x)
 {
 	mainfiles = new char[strlen(s3) + 1];
 	strcpy(mainfiles, s3);
 }
 
-ClassicPlus::ClassicPlus(const CdPlus& c, char* s3): CdPlus(c)
+ClassicPlus::ClassicPlus(const CdPlus& c, char* s3) : CdPlus(c)
 {
 	mainfiles = new char[strlen(s3) + 1];
 	strcpy(mainfiles, s3);
 }
 
-ClassicPlus::ClassicPlus(const ClassicPlus& c):CdPlus(c)
+ClassicPlus::ClassicPlus(const ClassicPlus& c) :CdPlus(c)
 {
 	mainfiles = new char[strlen(c.mainfiles) + 1];
 	strcpy(mainfiles, c.mainfiles);
 }
 
-ClassicPlus::ClassicPlus():CdPlus()
+ClassicPlus::ClassicPlus() :CdPlus()
 {
 	int null_length = strlen("null");
 	mainfiles = new char[null_length + 1];

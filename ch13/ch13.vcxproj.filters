@@ -27,6 +27,9 @@
     <ClCompile Include="Dma.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Port.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cd1.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Dma.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Port.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
