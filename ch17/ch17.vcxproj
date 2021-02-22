@@ -139,7 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="emp.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ex2.txt" />
+    <Text Include="ex4_input1.txt" />
+    <Text Include="ex4_input2.txt" />
+    <Text Include="ex4_output.txt" />
+    <Text Include="out.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ex7.dat" />
+    <None Include="mat.dat" />
+    <None Include="pat.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emp.h" />
+    <ClInclude Include="store.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

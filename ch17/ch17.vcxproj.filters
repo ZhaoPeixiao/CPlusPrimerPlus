@@ -18,5 +18,44 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="emp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ex2.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="ex4_input1.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="ex4_input2.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="ex4_output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mat.dat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="pat.dat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ex7.dat">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="store.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
